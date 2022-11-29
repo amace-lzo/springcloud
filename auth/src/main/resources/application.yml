@@ -1,8 +1,8 @@
 Spring:
   application:
-    name: auth-api
+    name: auth-service
 server:
-  port: 8081
+  port: 8082
 eureka:
   client:
     service-url:

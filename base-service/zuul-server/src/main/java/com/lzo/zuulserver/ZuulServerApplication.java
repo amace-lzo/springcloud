@@ -1,19 +1,16 @@
-package com.lzo.auth;
+package com.lzo.zuulserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.hystrix.EnableHystrix;
-
-@EnableEurekaClient
+import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
+@EnableZuulProxy
 @EnableDiscoveryClient
 @SpringBootApplication
-@EnableHystrix
-public class AuthApplication {
+public class ZuulServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AuthApplication.class, args);
+        SpringApplication.run(ZuulServerApplication.class, args);
     }
 
 }
