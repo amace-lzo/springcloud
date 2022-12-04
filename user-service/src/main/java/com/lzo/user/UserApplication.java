@@ -1,4 +1,4 @@
-package com.lzo.usermanagement;
+package com.lzo.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,10 +12,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableHystrix
 @EnableDiscoveryClient
 @SpringBootApplication
-public class UserManagementApplication {
+public class UserApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(UserManagementApplication.class, args);
+        SpringApplication.run(UserApplication.class, args);
     }
 
 }

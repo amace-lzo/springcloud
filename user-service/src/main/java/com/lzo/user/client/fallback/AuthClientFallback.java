@@ -1,6 +1,6 @@
-package com.lzo.usermanagement.client.fallback;
+package com.lzo.user.client.fallback;
 
-import com.lzo.usermanagement.client.AuthClient;
+import com.lzo.user.client.AuthClient;
 
 public class AuthClientFallback implements AuthClient {
     public String getAuthKey() {

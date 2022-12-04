@@ -1,6 +1,6 @@
-package com.lzo.usermanagement.controller;
+package com.lzo.user.controller;
 
-import com.lzo.usermanagement.client.AuthClient;
+import com.lzo.user.client.AuthClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
