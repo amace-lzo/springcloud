@@ -6,7 +6,7 @@
 
     <modules>
         <module>base-service</module>
-        <module>UserManagement</module>
+        <module>user-service</module>
         <module>auth</module>
     </modules>
 
