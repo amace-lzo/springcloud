@@ -19,10 +19,4 @@ spring:
       server:
         git:
           uri: https://github.com/amace-lzo/springcloud.git
-          searchPaths: /configuration
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
+          searchPaths: configuration
