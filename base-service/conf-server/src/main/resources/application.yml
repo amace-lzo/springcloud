@@ -1,0 +1,28 @@
+server:
+  port: 8888
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9991/eureka/
+
+spring:
+  application:
+    name: config-server
+  rabbitmq:
+    host: 192.168.2.171
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/amace-lzo/springcloud.git
+          searchPaths: /configuration
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

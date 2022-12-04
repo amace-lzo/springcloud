@@ -1,6 +1,13 @@
 server:
   port: 9000
 
+# url: http://127.0.0.1:9000/hystrix
+
 spring:
   application:
     name: hystrix-dashboard
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9991/eureka/
