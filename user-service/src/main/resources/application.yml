@@ -4,6 +4,7 @@ Spring:
   cloud:
     config:
       uri: http://localhost:8888/
+      profile: dev
 server:
   port: 8081
 eureka:
